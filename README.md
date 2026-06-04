@@ -36,3 +36,12 @@ php artisan serve
 
 ### 7 Truy cập
 127.0.0.1:8000/login
+
+### Tài khoản test web
+(admin)
+admin@gmail.com
+123123
+
+(user)
+user1@example.com
+123123
