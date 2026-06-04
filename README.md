@@ -20,6 +20,7 @@ composer install
 
 ### 4 Chạy Database
 php artisan migrate
+
 php artisan db:seed
 
 ### 5 Chạy serve
