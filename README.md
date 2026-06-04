@@ -19,6 +19,8 @@ composer install
 ### 3 Bật Xammpp
 
 ### 4 Chạy Database
+Thêm file .env và copy .env example qua .env
+
 php artisan migrate
 
 php artisan db:seed
