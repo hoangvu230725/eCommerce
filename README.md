@@ -19,11 +19,20 @@ composer install
 ### 3 Bật Xammpp
 
 ### 4 Chạy Database
+Tạo database tên: lavarel
+
 Thêm file .env và copy .env example qua .env
 
 php artisan migrate
 
 php artisan db:seed
 
-### 5 Chạy serve
+### 5 Tạo key
+php artisan key:generate
+
+
+### 6 Chạy serve
 php artisan serve
+
+### 7 Truy cập
+127.0.0.1:8000/login
